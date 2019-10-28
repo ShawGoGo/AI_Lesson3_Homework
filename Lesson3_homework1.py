@@ -8,7 +8,7 @@ def print_string(*strs, sep = ' ', end = '\n'):
         string += str + sep
     string = string[:-1] + end
     print(string)
-
+    return string
 
 print_string('This is a test')
 print_string('This', 'is', 'a', 'test')
